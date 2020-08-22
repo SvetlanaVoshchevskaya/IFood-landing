@@ -1,0 +1,442 @@
+@import 'variables'
+
+*
+    box-sizing: border-box
+body
+    background-color: $bg-color
+.container
+    width: 1200px
+    margin: 0 auto
+.section
+    &_title
+        color: #304751
+        font-family: Cookie
+        font-size: 77px
+        font-weight: 400
+        text-align: center
+        line-height: 1
+        &_white
+            color: #fff
+
+    &_subtitle
+        color: #ad6c12
+        font-family: Raleway
+        font-size: 48px
+        font-weight: 600
+        text-transform: uppercase
+        text-align: center
+.promo
+    background: url(../img/bg-promo.jpg) center (center/cover) no-repeat
+    padding: 62px 0 220px 0
+    &_logo
+        opacity: 0.78
+        color: #ffffff
+        font-family: Raleway
+        font-size: 35px
+        font-weight: 700
+        text-transform: uppercase
+    &_header
+        display: flex
+        justify-content: space-between
+.info
+    width: 758px
+    height: 472px
+    background-color: rgba(100%, 100%, 100%, 0.82)
+    margin: 220px auto
+    text-align: center
+    &_title
+        color: #2c3a42
+        font-family: Cookie
+        font-size: 104px
+        font-weight: 400
+        line-height: 0.8
+    &_subtitle
+        color: $subtitle-color
+        font-family: "Raleway"
+        font-size: 77px
+        font-weight: 600
+        text-transform: uppercase
+    &_btn
+        width: 267px
+        height: 60px
+        background-color: rgba(100%, 100%, 100%, 1)
+        color: #26363a
+        font-family: "Raleway"
+        font-size: 38px
+        font-weight: 600
+        text-transform: uppercase
+        border: none
+        cursor: pointer
+        margin-top: 28px
+
+.info > div
+    padding: 119px 0 118px 0
+.menu
+    &_list
+        list-style: none
+        display: flex
+        align-items:
+    &_item
+        margin-right: 26px
+    &_link
+        text-decoration: none
+        color: rgba(100%, 100%, 100%, 0.78)
+        font-family: Raleway
+        font-size: 35px
+        font-weight: 700
+        text-transform: uppercase
+        &:hover
+            color: rgba(100%, 100%, 100%, 1)
+.flavour
+    background-color: $bg-color
+    padding: 70px 0 65px 0
+    &_title
+        color: #ffffff
+        font-family: Raleway
+        font-size: 29px
+        font-weight: 700
+    &_text
+        color: #ffffff
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 400
+        line-height: 33.33px
+        width: 555px
+.flavour>div
+    display: flex
+    justify-content: space-between
+    align-items: center
+.new
+    background-color: #ffffff
+    opacity: 0.8
+    min-height: 375px
+    padding: 98px 0
+    &_item
+        width: 30%
+    &_title
+        color: #2a3b40
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 700
+        margin-top: 30px
+    &_descr
+        color: #2a3b40
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 400
+        line-height: 24.93px
+.new >div
+    display: flex
+    justify-content: space-between
+    align-items: center
+.circle
+    width: 31px
+    height: 31px
+    background-color: #2a3b40
+    border-radius: 100%
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        width: 64px
+        &_three
+            width: 98px
+.plate
+    background: url(../img/bg-plate.jpg) center (center/cover) no-repeat
+    // min-height: 1206px
+    padding: 89px 119px
+.plate > div
+    background-color: rgba(100%, 100%, 100%, 0.82)
+    padding-top: 54px
+.grid
+    display: grid
+    grid-template-rows: repeat(3, 1fr)
+    grid-template-columns: repeat( 4, 1fr)
+    margin-top: 54px
+    &_title
+        color: #304751
+        font-family: Raleway
+        font-size: 18px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin-top: 69px
+    &_descr
+        color: #304751
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 400
+        text-align: center
+    &_price
+        color: #304751
+        font-family: Raleway
+        font-size: 16px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+    &_img
+        width: 100%
+.traditionale
+    background-color: rgba(100%, 100%, 100%, 0.8)
+    position: relative
+    padding: 91px 0 30px 0
+    &_title
+        color: #2a3b40
+        font-family: Raleway
+        font-size: 29px
+        font-weight: 700
+        text-align: center
+    &_descr
+        color: #2a3b40
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 400
+        line-height: 33.33px
+        margin-top: 33px
+        text-align: center
+    &_circle
+        margin-top: 46px
+        margin: 0 auto
+.ornament
+    &_left
+        position: absolute
+        left: 0
+        top: 3px
+    &_right
+        position: absolute
+        right: 0
+        top: 3px
+.subnavigation
+    width: 370px
+    margin: 46px auto
+    &_menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style: none
+    &_link
+        text-decoration: none
+        color: #2a3b40
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 700
+.discover
+    background: url(../img/bg-new-menu.png) center (center/cover) no-repeat
+    min-height: 841px
+    padding-top: 238px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-top: 39px
+    &_item
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 65px
+        width: 50%
+    &_item:nth-child(1),:nth-child(2)
+        margin-top: 0
+
+    &_img
+        background-color: rgba(100%, 100%, 100%, 1)
+        border-radius: 100%
+        width: 81px
+        height: 81px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: 8px
+    &_descr
+        width: 60%
+    &_title
+        color: #304751
+        font-family: Raleway
+        font-size: 18px
+        font-weight: 700
+        text-transform: uppercase
+    &_text
+        color: #304751
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 400
+    &_text>span
+        color: #304751
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 700
+
+.section_color
+    background-color: rgba(100%, 100%, 100%, 0.82)
+    padding: 42px 0 63px 0
+.before-book
+    background: url(../img/bg-befor-book.png) center (center/cover) no-repeat
+    min-height: 889px
+.after-book
+    background: url(../img/bg-after-book.png) center (center/cover) no-repeat
+    min-height: 864px
+.book
+    padding: 47px 0 71px 0
+    min-height: 453px
+    &_form
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        &_submit
+            width: 237px
+            height: 32px
+            background: none
+            border: 1px solid #fff
+            border-radius: 5px
+            color: #ffffff
+            font-family: Raleway
+            font-size: 17px
+            font-weight: 700
+            text-transform: uppercase
+            margin: 0 auto
+            margin-top: 55px
+.book_form > div
+    width: 30%
+    margin-top: 43px
+    // &:not(:nth-child(2))
+    //     margin-top: 43px
+
+    .form
+        &_label
+            color: #ffffff
+            font-family: Raleway
+            font-size: 17px
+            font-weight: 700
+            display: block
+        &_input
+            width: 237px
+            height: 32px
+            background: none
+            border: 1px solid #fff
+            border-radius: 5px
+            color: #ffffff
+            font-family: Raleway
+            font-size: 17px
+            font-weight: 700
+            display: block
+            margin-top: 4px
+            padding: 5px
+.people
+    width: 237px
+    height: 32px
+    background: none
+    border: 1px solid #fff
+    border-radius: 5px
+    color: #ffffff
+    font-family: Raleway
+    font-size: 17px
+    font-weight: 700
+    display: block
+    margin-top: 4px
+    padding: 5px
+input::placeholder
+    color: #ffffff
+    font-family: Raleway
+    font-size: 17px
+    font-weight: 700
+
+.people >option
+    background-color: $bg-color
+.calendar
+    &::-webkit-calendar-picker-indicator
+        background: url(../icons/calendar.png) center (center/cover) no-repeat
+.new_menu
+    padding: 44px 0 122px 0
+    background-color: rgba(100%,100%, 100%,0.8)
+    &_list
+        display: flex
+        justify-content: space-between
+        list-style: none
+        padding: 0
+        margin: 0
+    &_item
+        width: 30%
+    &_img
+        display: block
+        width: 100%
+    &_descr
+        background-color: rgba(100%,100% ,100% ,1)
+        padding: 24px 0 25px 21px
+
+.new_menu >.container
+    margin-top: 48px
+.food
+    &_title
+        margin-top: 25px
+        color: #4f4e4e
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 700
+    &_descr
+        color: #4f4e4e
+        font-family: Raleway
+        font-size: 17px
+        font-weight: 400
+        line-height: 20px
+.category
+    color: #555555
+    font-family: Raleway
+    font-size: 15px
+    font-weight: 700
+    line-height: 14px
+    letter-spacing: 1.05px
+.more
+    color: #555555
+    font-family: Raleway
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    padding: 0
+    border: none
+    background-color: rgba(100%,100% ,100% ,1)
+    cursor: pointer
+    letter-spacing: 1.05px
+    line-height: 18px
+    margin-top: 25px
+    &::after
+        content: ''
+        display: block
+        width: 90px
+        height: 8px
+        background-color: #ff992b
+        margin-top: 5px
+.first_subfooter
+    padding: 47px 0
+    &_phrase
+        color: #ffffff
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 400
+        line-height: 33.33px
+        text-align: center
+        margin-top: 35px
+    &_autor
+        color: #ffffff
+        font-family: Raleway
+        font-size: 19px
+        font-weight: 700
+        line-height: 33.33px
+        text-align: center
+        margin-top: 30px
+    &_img
+        display: block
+        margin: 0 auto
+.icon
+    &_container
+        width: 335px
+        margin: 0 auto
+        margin-top: 43px
+    &_list
+        display: flex
+        list-style: none
+        justify-content: space-between
+    &_social
+        width: 46px
+        height: 46px
+        fill: #fff
+        
+
